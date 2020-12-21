@@ -62,7 +62,7 @@ You can visit localhost:8080/locations and see a list all department's locations
 
 ### REST Web Services
 
-You can access the following rest web services and see the response in xml format via Postman(api client), adding "restapi" in the path and writing one of the available endpoints  e.g. localhost:8080/restapi/departments
+You can access the following rest web services and see the response in xml format via Postman(api client), adding "restapi" in the path and writing one of the available endpoints  e.g. localhost:8080/restapi/departments. The REST Web Services are implemented in [REST Web Services](https://github.com/napoleon98/WebApp/blob/main/MyWebApp/src/main/java/com/example/MyWebApp/controllers/ControllerRestApi.java)
 
 
 |                           Request                           |                       Response in XML                       |
