@@ -60,6 +60,20 @@
  
 You can visit localhost:8080/locations and see a list all department's locations and pressing any of the buttons, you can see all departments that belongs to each location. Finally, you can see all employees working in each department as well as all details of each employee, pressing the suitable buttons.
 
+### REST Web Services
+
+You can access the following rest web services and see the response in xml format via Postman(api client), adding "restapi" in the path and writing one of the available endpoints  e.g. localhost:8080/restapi/departments
+
+
+|                           Request                           |                       Response in XML                       |
+|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
+|                          /locations                         |              List of all Departments' locations             |
+|                         /departments                        |                   List of all Departments                   |
+|                     /departments/{locId}                    | List of all Departments in Location with id=locId           |
+|                     /employees/{deptId}                     | List of all Employees working in Department with id=deptId  |
+| /SearchEmployee/firstname={First Name}&lastName={Last Name} | List of all Employees with same Fisrt Name and Last Name    |
+| employeeById/id={empId}                                     |                  The Employee with id=empId                 |
+
  
  
  
