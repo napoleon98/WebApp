@@ -1,7 +1,7 @@
 # WebApp
- ## A. Project Description
- In this project we designed and implemented a basic CRUD Java-Spring Boot Web Application for company staff.
- ### Databasse Subsystem
+ ## A. Project Description and Subsystems
+ In this project we designed and implemented a basic CRUD Java-Spring Boot Web Application, in Eclipse IDE, for company staff.
+ ### 1.Databasse Subsystem
  The database subsytem was implemented with **mySQL** and database connection with **JPA-Hibernate**.
  The tables that are created in database are below.
  #### Tables
@@ -36,3 +36,14 @@
 |  LocName  | Department's Location's name |             |
 
 
+ ### 2.Web site and Web Services Subsystems
+ For Web site's implementation we used
+ In the Web site is displayed:
+ * List of all Department Locations
+ * List of all Departments in a specific location
+ * List of all Employees working in a specific Department
+ * Details of an Employee
+ All these functionalities were implemented using  Jsp/Web Servlet and are displayed as a REST API response in xml format, as well.
+ 
+ 
+ 
