@@ -76,6 +76,10 @@ You can access the following rest web services and see the response in xml forma
 
  
  
+ ### Built-in Web Service Client
+ 
+ We also provide another way to access the above responses and this is a built in client. Web Service Client's functionality is similar to postman,and you will find it,if you visit localhost:8080/webServicesInterface. In the displayed text area, you can write your request (that should be one of the above) and the xml response will be displayed 
+ 
  
  
  
