@@ -10,9 +10,6 @@ target/
 .factorypath
 .project
 .settings
-mvn/wrapper/maven-wrapper.jar
-mvn/wrapper/maven-wrapper.properties
-mvn/wrapper/MavenWrapperDownloader.java
 .springBeans
 .sts4-cache
 
@@ -34,4 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
