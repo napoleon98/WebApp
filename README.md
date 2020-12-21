@@ -49,8 +49,8 @@
  1. Download the code in MyWebApp
  2. Import files into Eclipse IDE
  3. Create a database with name mydatabase
- 4. Change spring.datasource.url, spring.datasource.username,spring.datasource.password according to yours ones.These are into [application.properties](), click on to visit them.Now you can connect to the database that you created before.
- 5. Run......
+ 4. Change spring.datasource.url, spring.datasource.username,spring.datasource.password according to yours ones.These are into [application.properties](https://github.com/napoleon98/WebApp/blob/main/MyWebApp/src/main/resources/application.properties), click on to visit them.Now you can connect to the database that you created before.
+ 5. Run MyWebAppApplication.java that you will find in MyWebApp/src/main/java/com/example/MyWebApp/, as Java Application.
  
  Now, you can manually, "fill" the tables, that are created in your database, using mySQL workbench for example.
  
@@ -78,7 +78,7 @@ You can access the following rest web services and see the response in xml forma
  
  ### Built-in Web Service Client
  
- We also provide another way to access the above responses and this is a built in client. Web Service Client's functionality is similar to postman,and you will find it,if you visit localhost:8080/webServicesInterface. In the displayed text area, you can write your request (that should be one of the above) and the xml response will be displayed 
+ We also provide another way to access the above responses, a built in client. Web Service Client's functionality is similar to postman,and you will find it,if you visit localhost:8080/[webServicesInterface](https://github.com/napoleon98/WebApp/blob/main/MyWebApp/src/main/webapp/Jsp/webServicesInterface.jsp). In the displayed text area, you can write your request (that should be one of the above) and the xml response will be displayed. 
  
  
  
