@@ -37,12 +37,13 @@
 
 
  ### 2.Web site and Web Services Subsystems
- For Web site's implementation we used
+
  In the Web site is displayed:
  * List of all Department Locations
  * List of all Departments in a specific location
  * List of all Employees working in a specific Department
  * Details of an Employee
+ 
  All these functionalities were implemented using  **Jsp/Web Servlet** and are displayed as a REST API response in xml format, as well.
  ## B.How to install
  The following steps will help you to install and run the project.
